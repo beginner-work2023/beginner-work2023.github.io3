@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/ress@4.0.0/dist/ress.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/icons8-48.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Kaisei+Opti&family=Lobster&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>SmileBurgers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".slider").bxSlider({
+          auto: true,
+          pause: 5000,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header id="header" class="wrapper">
+      <h2 class="header-logo">Smile😀Burgers</h2>
+      <nav id="header-nav">
+        <ul>
+          <li><a class="nav-item" href="#About">Abut</a></li>
+          <li><a class="nav-item" href="#Menu">Menu</a></li>
+          <li><a class="nav-item" href="#Gallery">Gallery</a></li>
+          <li><a class="nav-item" href="#News">News</a></li>
+          <li><a class="nav-item" href="#Access">Access</a></li>
+        </ul>
+      </nav>
+      <div class="buns-top"></div>
+    </header>
+    <section id="main-visual">
+      <div id="container">
+        <img class="image" src="img/main1.jpg" />
+        <img class="image" src="img/main2.jpg" />
+        <img class="image" src="img/main3.jpg" />
+      </div>
+      <canvas></canvas>
+    </section>
+    <section id="About" class="wrapper">
+      <h2>About</h2>
+      <p>
+        スマイルバーガー、笑顔と美味しさが交わる幸せな場所です。<br />
+        私たちは、素材からサービスまで、すべてを愛と笑顔で包み込み、お客様に心温まるバーガーエクスペリエンスを提供しています。<br />
+        私たちのバーガーは、笑顔を引き出す特別なレシピで生まれます。ジューシーなパティとフレッシュなトッピングが一口噛むたびにあなたの顔に笑みを広げることでしょう。そして、カスタマイズオプションがあるのであなただけの「笑顔バーガー」を楽しむことができます。<br />
+        私たちは、食材の鮮度にこだわると同時に、スタッフの笑顔と心のこもったサービスを大切にしています。店内は明るくて温かな雰囲気で、笑顔が自然と溢れる場所。家族や友人と一緒に過ごすとき、笑顔と美味しさが心地よいひとときを約束します。
+        スマイルバーガーは、お客様の笑顔が私たちの最大の喜びです。笑顔で溢れたバーガー体験を、ぜひ一度ご堪能ください。<br />
+        笑顔を大切にしたスマイルバーガーで、お待ちしております。
+      </p>
+    </section>
+    <section id="Menu">
+      <h2>Menu</h2>
+      <div class="list">
+        <a class="menu-img1" href="">
+          <img src="img/menu-burger (1).jpg" alt="menu-burger" />
+        </a>
+        <a class="menu-img2" href="">
+          <img src="img/menu-side (1).jpg" alt="menu-side" />
+        </a>
+      </div>
+    </section>
+    <section id="Gallery" class="wrapper">
+      <h2 class="title">Gallery</h2>
+      <div class="slider">
+        <img src="img/gallery1.jpg" width="1000" height="800" alt="gallery1" />
+        <img src="img/gallery2.jpg" width="1000" height="800" alt="gallery2" />
+        <img src="img/gallery3.png" width="1000" height="800" alt="gallery3" />
+        <img src="img/gallery4.jpg" width="1000" height="800" alt="gallery4" />
+        <img src="img/gallery5.jpg" width="1000" height="800" alt="gallery5" />
+        <img src="img/gallery6.jpg" width="1000" height="800" alt="gallery6" />
+      </div>
+    </section>
+    <section id="News">
+      <h2 id="news-top">News</h2>
+      <div id="news-list">
+        <article id="news-card">
+          <div id="card">
+            <a href="">
+              <img class="news-img" src="img/news1 (1).jpg" alt="news1" />
+              <p>○○○○年○月○日</p>
+              <h3>雑誌に取材記事が掲載されました</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </div>
+          <div id="card">
+            <a href="">
+              <img class="news-img" src="img/news2 (1).jpg" alt="news2" />
+              <p>○○○○年○月○日</p>
+              <h3>○月中の営業時間のお知らせ</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </div>
+          <div id="card">
+            <a href="">
+              <img class="news-img" src="img/news3 (1).jpg" alt="news3" />
+              <p>○○○○年○月○日</p>
+              <h3>○月限定バーガーのご紹介</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </div>
+          <div id="card">
+            <a href="">
+              <img class="news-img" src="img/news4 (1).jpg" alt="news4" />
+              <p>○○○○年○月○日</p>
+              <h3>インスタグラム始めました</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </div>
+        </article>
+        <a id="news-link" href="">
+          <h2 id="news-text">News 一覧</h2>
+        </a>
+      </div>
+    </section>
+    <section id="Access" class="wrapper">
+      <h2>Access</h2>
+      <div id="access-menu">
+        <div class="contact">
+          <h3>Smile😃Burgers</h3>
+          <p>〒900-0013 沖縄県那覇市○丁目○○○</p>
+          <p>
+            営業時間<br />
+            平日/11:00~20:00 <br />
+            土曜日.日曜日/11:00~22:00
+          </p>
+          <p>定休日:月曜日</p>
+          <p>電話:○○○-○○○○-○○○○</p>
+          <p>メール:□□□□@□□□□.□□□</p>
+        </div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5489.613110256505!2d127.68432390230663!3d26.21364144018959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e56977701f0ffb%3A0x137a2164664af9fc!2z6YKj6KaH5Zu96Zqb6YCa44KK5ZWG5bqX6KGX!5e1!3m2!1sja!2sjp!4v1693575722789!5m2!1sja!2sjp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="wrapper">
+      <div class="buns-bottom"></div>
+      <p>&copy; 2023 SmileBurgers. All rights Reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
